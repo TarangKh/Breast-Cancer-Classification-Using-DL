@@ -40,7 +40,7 @@ predicted_label = np.argmax(pred)
 print("---- BREAST CANCER CLASSIFICATION ----")
 print("FEATURES")
 print(data.feature_names)
-print("RANDOM INPUT CORRESPONDING TO FEATURES")
+print("RANDOM SAMPLE CORRESPONDING TO FEATURES")
 print(random_input)
 
 print("ACTUAL RESULT: ", end="")
